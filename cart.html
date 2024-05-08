@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="csscart.css">
+<title>Your Chocolate Cart</title>
+<link rel="stylesheet" href="cssIndex.css"> </head>
+<body>
+
+<header>
+  <h1>Your Chocolate Cart</h1>
+  <nav>
+            <ul>
+                <li><a href="categories.html" >OUR CHOCOLATE</a></li>
+                <li><a href="aboutUs.html">ABOUT CHOCOLICS</a></li>
+                
+                <li style="padding-right:350px;" ><a href="index.html">HOME</a></li>
+                <input id="search" type= search style= "border-radius: 20px;border-color:#fff;">&nbsp;
+                 <i id="serch" class="fa-solid fa-magnifying-glass"></i>
+                 <a href="cart.html" style="background-color:#FEBBCC; border-color:#FEBBCC;">
+                <span>
+                <i style="padding-left:10px;" class="fa-solid fa-cart-shopping"></i>
+                 <a href="login.html" style="background-color:#FEBBCC; border-color:#FEBBCC;">
+                <span>
+                <i style="padding-left:10px;" class="fa-solid fa-user"></i>
+  </span>
+</a>
+
+            </ul>
+        </nav>
+   </header>
+
+<main>
+  <h2>Cart Items</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dark Chocolate Bar</td>
+        <td><img src="image\cartChoco.jpg" width="120 px" alt="Dark Chocolate Bar"></td>
+        <td>$5.99</td>
+        <td>2</td>
+        <td>$11.98</td>
+      </tr>
+     
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total</td>
+        <td>$11.98</td>
+        <td></td>
+      </tr>
+    </tfoot>
+  </table> 
+  <form action="payment.html">
+  <button  style="color:#000" hover class="checkout-button">Proceed to Checkout</button> </main>
+</form>
+</body>
+</html>

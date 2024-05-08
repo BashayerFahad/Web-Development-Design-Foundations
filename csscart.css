@@ -1,0 +1,104 @@
+/* Overall styling for a happy and inviting feel */
+body {
+  font-family: 'Lato', sans-serif; /* Friendly and approachable font */
+  background-color: #FFDDCC; /* White for a clean and airy base */
+  color: #333; /* Darker text for good contrast */
+}
+
+/* Header with a playful touch */
+header {
+  background-color: #FEBBCC; /* Soft pink background */
+  padding: 20px;
+  text-align: center;
+  /*border-bottom: 5px solid #f08080; /* Bolder pink border for separation */
+   border: 1px solid black;
+}
+
+h1 {
+  font-family:cursive;
+  font-size: 3em;
+  color: #fff; /* Bolder pink for the heading */
+  /*text-shadow: 2px 2px 2px #f08080; /* Slight shadow for depth */
+}
+
+
+
+/* Main content with visual interest */
+main {
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #FFCCCC; /* Pink header row */
+  color: #333;
+}
+
+td {
+  background-color: #f4f4f4; /* Lighter gray for rows */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0; /* Alternate row colors for visual interest */
+}
+
+button {
+  background-color: #FFCCCC; /* Pink button with rounded edges */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  button:hover {
+            background-color: #FFDDCC;
+}
+}
+
+/* Footer with a friendly tone */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f7c5c5; /* Pink background for consistency */
+  border-top: 5px solid #f08080; /* Bolder pink border for separation */
+}
+
+
+  table {
+    border: 1px solid #ddd; /* Add a border for clarity on smaller screens */
+  }
+}
+nav ul {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    border: 2px;
+    border-color:fff;
+    font-weight: bold;
+    border: 1px solid black; /* Adjust thickness and color as needed */
+    border-radius: 20px;
+    border-color: #000;
+    background-color: #FFCCCC;
+     padding: 10px;
+}
